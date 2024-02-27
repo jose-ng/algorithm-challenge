@@ -1,4 +1,4 @@
-const op = require("./alphanumeric-string-sort");
+const op = require("./index");
 
 fdescribe("Alphanumeric String Sort", () => {
   it("Test input 1", () => {
