@@ -25,6 +25,4 @@ function alphanumericStringSort(str) {
   return letters + sortedNumbers + notLetters;
 }
 
-console.log(alphanumericStringSort(" abckskskNNJ´¿?39ks3JSJHHE"));
-
 module.exports = alphanumericStringSort;
