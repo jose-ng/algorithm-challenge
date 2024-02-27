@@ -10,7 +10,6 @@ Taking a string as input sort the string characters with the following rules:
 
 function alphanumericStringSort(str) {
   const letters = str.split("").sort().reverse().join("").replace(/[^a-zA-Z]/g, "");  
-  console.log(letters)
   const numbers = str.replace(/[^0-9]/g, "");
   const notLetters = str.replace(/[0-9a-zA-Z]/g, "");
   
