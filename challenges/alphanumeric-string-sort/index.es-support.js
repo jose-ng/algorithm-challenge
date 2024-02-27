@@ -26,12 +26,12 @@ function alphanumericStringSort(str) {
     .split("")
     .sort((a, b) => {
       if (a === a.toUpperCase() && b === b.toUpperCase())
-        return a.localeCompare(b, "es", { sensitivity: "base" });
+        return 0
       else return a === a.toUpperCase() ? 1 : -1;
     })
     .join("");
 
   return sortedLetters + sortedNumbers + notLetters;
 }
-
+console.log(alphanumericStringSort('10bY¨^3cáéXZ2!ñÑ\"Üü'))
 module.exports = alphanumericStringSort;
