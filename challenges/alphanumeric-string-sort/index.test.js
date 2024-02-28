@@ -1,6 +1,6 @@
 const op = require("./index");
 
-fdescribe("Alphanumeric String Sort", () => {
+describe("Alphanumeric String Sort", () => {
   it("Test input 1", () => {
     expect(op("2.a,-n967AB8.")).toBe("naAB79862.,-.");
   });
