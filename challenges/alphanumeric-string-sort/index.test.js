@@ -9,7 +9,7 @@ describe("Alphanumeric String Sort", () => {
     expect(op(" ssAx009¨¨.´QQ")).toBe("xssAQQ900 ¨¨.´");
   });
 
-  it("Test input 2", () => {
+  it("Test input 3", () => {
     expect(op("80 abckskskNNJ´¿?39ks3JSJHHE")).toBe("skkskskcbaNNJJSJHHE39308 ´¿?");
   });
 });

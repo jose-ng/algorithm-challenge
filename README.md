@@ -1,3 +1,6 @@
 # Algorithm Challenge
 
-Every challenge will be listed in its own file
+Every code challenge will be listed in its own folder
+
+- Alphanumeric String Sort
+- Balanced parentheses
