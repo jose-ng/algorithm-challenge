@@ -26,10 +26,6 @@ function findWiner(match) {
   ];
 
   const checkIfWin = (p) => {
-    console.log(grid[0][0] + "," + grid[0][1] + "," + grid[0][2]);
-    console.log(grid[1][0] + "," + grid[1][1] + "," + grid[1][2]);
-    console.log(grid[2][0] + "," + grid[2][1] + "," + grid[2][2]);
-
     for (let i = 0; i < 3; i++) {
       if (
         (grid[i][0] == p && grid[i][1] == p && grid[i][2] == p) ||
@@ -60,40 +56,5 @@ function findWiner(match) {
     if (moves === 9) return result[2];
   }
 }
-
-console.log(
-  findWiner([
-    [0, 0],
-    [2, 0],
-    [1, 1],
-    [2, 1],
-    [2, 2],
-  ])
-);
-
-console.log(
-  findWiner([
-    [0, 0],
-    [1, 1],
-    [0, 1],
-    [0, 2],
-    [1, 0],
-    [2, 0],
-  ])
-);
-
-console.log(
-  findWiner([
-    [0, 0],
-    [1, 1],
-    [2, 0],
-    [1, 0],
-    [1, 2],
-    [2, 1],
-    [0, 1],
-    [0, 2],
-    [2, 2],
-  ])
-);
 
 module.exports = findWiner;

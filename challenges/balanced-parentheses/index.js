@@ -28,15 +28,3 @@ function isValidBalancedParenthses(str) {
 }
 
 module.exports = isValidBalancedParenthses;
-
-/*console.log(isValidBalancedParenthses(")abc()def("));
-console.log(isValidBalancedParenthses("()"));
-console.log(isValidBalancedParenthses("(hello, world)"));
-console.log(isValidBalancedParenthses("Random text (as this) is ok()."));
-console.log(isValidBalancedParenthses(")("));
-console.log(isValidBalancedParenthses("(Hello (,) world (!))"));
-console.log(isValidBalancedParenthses(")()("));
-console.log(isValidBalancedParenthses("())(()"));
-console.log(isValidBalancedParenthses("(((((())))))"));
-console.log(isValidBalancedParenthses("(((h(j(k(l))))))"));
-console.log(isValidBalancedParenthses("(((((()))()))"));*/
